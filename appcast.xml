@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <item>
+            <title>QuestBits 1.2.0</title>
+            <sparkle:version>1.2.0</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <pubDate>Thu, 02 Jul 2026 16:07:17 GMT</pubDate>
+            <description><![CDATA[## [1.2.0] - 2026-07-02
+
+### Added
+
+- Cozy RPG theme ("QuestBit"): parchment / bark / harvest-gold palette replacing
+  the previous white-and-blue design; DESIGN.md rewritten as the
+  `QuestBit-cozy-rpg` spec.
+- Bundled fonts (OFL): Alegreya for headings and the timer, Quicksand for body
+  text — registered from the app bundle at launch.
+- Bundled icon set: Lucide (ISC) and Tabler (MIT) SVG icons for the sidebar,
+  project rows, and pomodoro phases (campfire / beer / bed / embers); license
+  texts ship inside the app.
+- Decorative art (all CC0): Kenney fantasy border framing the task-detail pane,
+  ambientCG paper grain on parchment surfaces, and wood planks under the dark
+  hearth bars.
+- New due-date picker: a formatted-date button opens a calendar popover with
+  Today / Tomorrow / Next week quick picks (replaces the stepper field).
+- Done tasks collapse into a "Done (N)" toggle section at the bottom of the
+  task list; the expanded/collapsed state persists across launches.
+
+### Changed
+
+- Task-detail pane rebuilt from the system grouped form into themed parchment
+  section cards with bright vellum input fields.
+- Sidebar restyled as a quest log: "Quests" / "Quest Logs" headers, gold
+  selection cards, and per-project code + task-count pills.
+- Pomodoro bar and update banner are now dark-bark hearth surfaces with cream
+  text and wood-grain texture.
+
+### Fixed
+
+- Input fields in the task-detail pane rendered a doubled outline (a container
+  shadow cascaded onto every child view).]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.2.0/QuestBits_1.2.0.dmg" length="2559764" type="application/octet-stream" sparkle:edSignature="D5cA/5Z4KKnxWcJw8IMvVZtHcwIJIeDSolO6Hpo8NUr8lG8EycNy06t4UtPTvcAJ3etoQpkR2dnsHZ+TFpIjDg==" sparkle:version="1.2.0" sparkle:shortVersionString="1.2.0" />
+        </item>
+    </channel>
+</rss>
