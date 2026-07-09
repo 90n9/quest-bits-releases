@@ -2,11 +2,38 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>QuestBits 1.2.1</title>
+            <sparkle:version>1.2.1</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <pubDate>Thu, 09 Jul 2026 13:35:50 GMT</pubDate>
+            <description><![CDATA[## [1.2.1] - 2026-07-09
+
+### Fixed
+
+- Auto-update signature verification: the Sparkle public key baked into the app
+  did not match the private key CI signs releases with, so every shipped build
+  silently rejected updates. The correct public key is now baked in.
+  **Note:** builds ≤ 1.2.0 carry the wrong key and cannot auto-update to this
+  release — update them once manually by downloading the DMG.
+
+### Added
+
+- Custom app icon (parchment quest-scroll) bundled into the app and DMG.
+- App version shown in the sidebar footer.
+
+### Changed
+
+- README: added Gatekeeper instructions for opening un-notarized downloads
+  ("damaged app" fix via `xattr -dr com.apple.quarantine`).]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.2.1/QuestBits_1.2.1.dmg" length="5053561" type="application/octet-stream" sparkle:edSignature="kwzF7ARd/oVHX+IonthgEJn9tAdG9bT/cUE38+gCijkyLPNQnF+SvhKuA5lXqzo+Dp0+J8/8Cw4HKY3ZwkeYAw==" sparkle:version="1.2.1" sparkle:shortVersionString="1.2.1" />
+        </item>
+        <item>
             <title>QuestBits 1.2.0</title>
             <sparkle:version>1.2.0</sparkle:version>
             <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <pubDate>Thu, 02 Jul 2026 16:07:17 GMT</pubDate>
-            <description><![CDATA[## [1.2.0] - 2026-07-02
+            <description>## [1.2.0] - 2026-07-02
 
 ### Added
 
@@ -38,7 +65,7 @@
 ### Fixed
 
 - Input fields in the task-detail pane rendered a doubled outline (a container
-  shadow cascaded onto every child view).]]></description>
+  shadow cascaded onto every child view).</description>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.2.0/QuestBits_1.2.0.dmg" length="2559764" type="application/octet-stream" sparkle:edSignature="D5cA/5Z4KKnxWcJw8IMvVZtHcwIJIeDSolO6Hpo8NUr8lG8EycNy06t4UtPTvcAJ3etoQpkR2dnsHZ+TFpIjDg==" sparkle:version="1.2.0" sparkle:shortVersionString="1.2.0" />
         </item>
