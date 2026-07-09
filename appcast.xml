@@ -2,11 +2,27 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>QuestBits 1.2.3</title>
+            <sparkle:version>1.2.3</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <pubDate>Thu, 09 Jul 2026 15:05:50 GMT</pubDate>
+            <description><![CDATA[## [1.2.3] - 2026-07-09
+
+### Changed
+
+- MCP registration key renamed from `todo` to `quest-bits` (`todo-dev` →
+  `quest-bits-dev` for dev builds) so the entry in `~/.claude.json` clearly
+  identifies this app. On launch the app migrates its own legacy entry
+  automatically (only when it points at a QuestBits binary).]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.2.3/QuestBits_1.2.3.dmg" length="5054593" type="application/octet-stream" sparkle:edSignature="+0QlIp78B0h0wiZv77Z8YNdmIdWGnFgbeIUIgskwylF/0emGEasi1dJoCNA7CrLPuBAPanBWvV9w+MVxy2USDg==" sparkle:version="1.2.3" sparkle:shortVersionString="1.2.3" />
+        </item>
+        <item>
             <title>QuestBits 1.2.2</title>
             <sparkle:version>1.2.2</sparkle:version>
             <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <pubDate>Thu, 09 Jul 2026 14:03:59 GMT</pubDate>
-            <description><![CDATA[## [1.2.2] - 2026-07-09
+            <description>## [1.2.2] - 2026-07-09
 
 ### Added
 
@@ -19,7 +35,7 @@
 
 - Local builds stamped a hardcoded `1.0.0` as their version; they now derive it
   from `git describe --tags` (e.g. `1.2.1-3-g65a2000`) so the sidebar footer
-  shows the build's real provenance. Release builds still use the git tag.]]></description>
+  shows the build's real provenance. Release builds still use the git tag.</description>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.2.2/QuestBits_1.2.2.dmg" length="5054015" type="application/octet-stream" sparkle:edSignature="7lmFRH/iVCluyRNgoRKvEB7F74sG2Txe0GFVUxvJugTOORyLAsHbaLH/OwmOTdBaofjD9ETGc0uQUbVZuFJjBQ==" sparkle:version="1.2.2" sparkle:shortVersionString="1.2.2" />
         </item>
