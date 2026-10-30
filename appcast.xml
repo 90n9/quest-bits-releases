@@ -2,6 +2,45 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>QuestBits 1.4.2</title>
+            <sparkle:version>1.4.2</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+            <pubDate>Fri, 30 Oct 2026 17:01:36 GMT</pubDate>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font: 13px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.45; margin: 0 2px; }
+h3 { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+     opacity: .65; margin: 16px 0 4px; }
+h3:first-child { margin-top: 2px; }
+p { margin: 6px 0; }
+ul { margin: 4px 0; padding-left: 18px; }
+li { margin: 4px 0; }
+li > ul { margin: 2px 0; }
+code { font: 12px ui-monospace, Menlo, monospace; padding: 0 3px; border-radius: 3px;
+       background: rgba(127, 127, 127, .16); }
+</style>
+<h3>Added</h3>
+<ul><li>
+<strong>Agent guides.</strong> Agents get QuestBits' built-in rules with <code>get_guide</code>, then your guide for every project, then the project's own guide (for example "render a preview before exporting" for an animation project). Edit your guide in Settings → Agent Guide, and a project's guide from its menu in the sidebar (Edit Guide…). History lists every version, yours and agents', and can restore one.
+</li><li>
+MCP <code>update_guide</code> lets an agent change a guide, but only when you asked it to or said yes to its question. Every change is a new version with its reason. <code>get_guide_history</code> lists the versions.
+</li><li>
+<strong>Commands to paste into Claude Code.</strong> A task's Detail shows <code>/mcp__quest-bits__work &lt;code&gt;</code> with a copy button: it starts a session on that task. The Questions page shows <code>/mcp__quest-bits__resume</code> (and a <code>/loop</code> form) for a session that stopped waiting for your answers.
+</li><li>
+MCP <code>update_task</code> and <code>bulk_update_tasks</code> take <code>parent_code</code> (or <code>parent_id</code>) to move a task under another top-level task of the same project, or <code>null</code> to make it top-level again. The change is in the task's history.
+</li></ul>
+<h3>Changed</h3>
+<ul><li>
+The rules QuestBits gives every Claude Code session are shorter and say when they apply: only while the session works on a QuestBits task. A quick question or routine work in another repo no longer brings in the ask loop. The full rules moved to <code>get_guide</code>.
+</li></ul>
+<h3>Fixed</h3>
+<ul><li>
+The Questions page no longer shows white strips on either side of the question card.
+</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.4.2/QuestBits_1.4.2.dmg" length="5998095" type="application/octet-stream" sparkle:edSignature="XH3U5OCpohByPavCwKZqT4fATX4DDvCZYkeHsSkkJpdqjzZs6+o/7GP2spRZE1YeeX1FP/RwiulNGIgAZpnHCQ==" sparkle:version="1.4.2" sparkle:shortVersionString="1.4.2" />
+        </item>
+        <item>
             <title>QuestBits 1.4.1</title>
             <sparkle:version>1.4.1</sparkle:version>
             <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
