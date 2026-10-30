@@ -2,6 +2,47 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>QuestBits 1.4.3</title>
+            <sparkle:version>1.4.3</sparkle:version>
+            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+            <pubDate>Fri, 30 Oct 2026 21:14:11 GMT</pubDate>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font: 13px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.45; margin: 0 2px; }
+h3 { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+     opacity: .65; margin: 16px 0 4px; }
+h3:first-child { margin-top: 2px; }
+p { margin: 6px 0; }
+ul { margin: 4px 0; padding-left: 18px; }
+li { margin: 4px 0; }
+li > ul { margin: 2px 0; }
+code { font: 12px ui-monospace, Menlo, monospace; padding: 0 3px; border-radius: 3px;
+       background: rgba(127, 127, 127, .16); }
+</style>
+<h3>Added</h3>
+<ul><li>
+<strong>Guide templates by kind of project.</strong> New Project has a Kind picker (Web app, App, Research, Animation, or None) that starts the project's agent guide from a short template you then edit. A project whose guide is still empty gets a <strong>Start from template</strong> menu in its guide sheet. The template is saved as an ordinary guide version, so History shows it and can restore past it. The templates are first drafts and will be rewritten from the guides you actually keep.
+</li><li>
+MCP <code>create_project</code> takes an optional <code>guide_template</code> (<code>web_app</code>, <code>app</code>, <code>research</code> or <code>animation</code>) and <code>session</code>.
+</li><li>
+<strong>Project descriptions use the Notion-style editor</strong> of a task's Detail: headings, lists, bold and italic, links and pasted or dropped images. The text is still markdown. In the project sheet, Save is ⌘Return, because Return belongs to the editor.
+</li><li>
+MCP project results (<code>list_projects</code>, <code>create_project</code>) list the files of images in the description as <code>attachments</code>, as tasks already do.
+</li><li>
+<strong>Project tabs.</strong> A project's page has tabs: Tasks (as before, and still what opens first), Detail (the project at a glance, and its description edited in place), Guide (the project's guide edited in place, beside the built-in rules and your guide for all projects) and Questions (that project's questions, answered in place). No popup or right-click needed; the sidebar menu still works. ⌘N from another tab goes back to Tasks.
+</li><li>
+<strong>Choose a project's code.</strong> New Project and Edit Project (also on the Detail tab) have a Code field: 1–10 letters A–Z or digits, starting with a letter, and not another project's code (checked as you type). Leave it empty on a new project to get one from the name. Changing a code keeps the existing task codes, so references to them stay valid; new tasks take the new code. MCP <code>create_project</code> takes <code>code</code>, and <code>update_project</code> takes <code>new_code</code>.
+</li><li>
+<strong>Archived page.</strong> Archived in the sidebar lists your archived projects, newest first, with a search by name or code: open one, or unarchive it. A project's Detail tab has Archive… (or Unarchive) too, so neither needs the right-click menu.
+</li></ul>
+<h3>Fixed</h3>
+<ul><li>
+A new task never gets a code another task already has (possible once codes can change).
+</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.4.3/QuestBits_1.4.3.dmg" length="6111061" type="application/octet-stream" sparkle:edSignature="TmfQ/yqI7CPEUxdzayjo9q1V2FMN9ak5ScpnbNcrWCygXPmYNFzXfzXRpOrxsjYGZOeOJU3Xf4AG7zV2c67fCg==" sparkle:version="1.4.3" sparkle:shortVersionString="1.4.3" />
+        </item>
+        <item>
             <title>QuestBits 1.4.2</title>
             <sparkle:version>1.4.2</sparkle:version>
             <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
