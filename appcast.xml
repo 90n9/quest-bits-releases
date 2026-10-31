@@ -2,6 +2,47 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <item>
+            <title>QuestBits 1.6.0</title>
+            <sparkle:version>1.6.0</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <pubDate>Sat, 31 Oct 2026 15:46:30 GMT</pubDate>
+            <description><![CDATA[<style>
+:root { color-scheme: light dark; }
+body { font: 13px -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.45; margin: 0 2px; }
+h3 { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+     opacity: .65; margin: 16px 0 4px; }
+h3:first-child { margin-top: 2px; }
+p { margin: 6px 0; }
+ul { margin: 4px 0; padding-left: 18px; }
+li { margin: 4px 0; }
+li > ul { margin: 2px 0; }
+code { font: 12px ui-monospace, Menlo, monospace; padding: 0 3px; border-radius: 3px;
+       background: rgba(127, 127, 127, .16); }
+</style>
+<h3>Added</h3>
+<ul><li>
+<strong>Settings is a page of the main window.</strong> Open it from the sidebar (Settings, under Archived) or with ⌘,. When the window is wide enough the settings sit in two columns, so far less scrolling; there is no separate Settings window any more.
+</li><li>
+<strong>Answered questions stay findable.</strong> The Questions page and a project's Questions tab have Open and History. History lists the questions you answered (with your answer) and the ones an agent withdrew, newest first; pick one to read the question, its context and your answer, and open its task.
+</li></ul>
+<h3>Changed</h3>
+<ul><li>
+<strong>The detail pane opens only when you pick something.</strong> Pages now use the full width: the task list, Waiting on you, Questions, Activity, Decisions and Wiki no longer split into three columns up front or pick their first item for you. Click an item and its detail opens on the right; close it with the button at the top right. The Dashboard and Archived have no pane, and a project's Detail and Guide tabs show the overview beside the editor.
+</li><li>
+<strong>New Dashboard.</strong> It fills the page: today's date, tiles for tasks done today and in 7 days (compared with the day and week before), in progress, waiting on you and new decisions (the last three open their page), tasks completed per day over 14 days, what needs you, each project's progress, and the tasks in progress.
+</li><li>
+<strong>Sidebar order follows what needs you first:</strong> Waiting on you, Questions, Decisions, In Progress, All Tasks, Dashboard, Activity, Templates, Archived, Settings.
+</li><li>
+<strong>New Task sits beside the task list's search,</strong> at the top of the list it adds to, instead of the far corner of the toolbar.
+</li><li>
+<strong>The menu-bar item shows the QuestBits logo</strong> with the ✋ waiting and ⚡ working counts. Since 1.5.0 it showed only the numbers, because the menu bar dropped the symbols.
+</li><li>
+Sidebar rows can be pressed with VoiceOver and other accessibility tools.
+</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/90n9/quest-bits-releases/releases/download/v1.6.0/QuestBits_1.6.0.dmg" length="8830633" type="application/octet-stream" sparkle:edSignature="Aq9vtQDYFJo+Pe/FqgEmdX3Z3xPc6aXjHEKDqJ5lBdz/PPbZQrrDuiYnEsvnN+SJQDaV+9ZMsZ1GMxQMaqdJCg==" sparkle:version="1.6.0" sparkle:shortVersionString="1.6.0" />
+        </item>
+        <item>
             <title>QuestBits 1.5.0</title>
             <sparkle:version>1.5.0</sparkle:version>
             <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
